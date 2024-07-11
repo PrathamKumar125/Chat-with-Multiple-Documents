@@ -16,5 +16,4 @@ jobs:
     - name: Build & Push Image
       run: |
         echo "${{ secrets.DOCKERPW }}" | docker login -u "prathamkumars125" --password-stdin
-        docker image build -t dab8106/pyflask:latest .
         docker push prathamkumars125/chat-with-multiple-documents:latest
