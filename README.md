@@ -71,7 +71,8 @@ The application can be run individually using: FastAPI app, Streamlit app, Or Bo
     - The FastAPI app will be available at `http://127.0.0.1:8000`.
     - The Streamlit app will be available at `http://localhost:8501`.
 
-    **Note:** Ensure that `main.py` is configured to handle starting both services properly. Typically, `main.py` should manage the execution of both FastAPI and Streamlit applications, possibly using threading or multiprocessing.
+    **Note:** Ensure that `main.py` is configured to handle starting both services properly. 
+    Typically, `main.py` should manage the execution of both FastAPI and Streamlit applications, possibly using threading or multiprocessing.
 
 ## Requirements
 
