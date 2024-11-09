@@ -2,6 +2,10 @@ streamlit
 python-dotenv
 llama-index
 llama-index-embeddings-huggingface
-llama-index-llms-huggingface
 gradio==3.50
 docx2txt
+tf-keras
+fastapi
+pydantic
+uvicorn
+llama_index.llms.huggingface_api
