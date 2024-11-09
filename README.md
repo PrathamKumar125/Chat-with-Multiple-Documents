@@ -55,7 +55,7 @@ The application can be run individually using: FastAPI app, Streamlit app, Or Bo
 ### Start Streamlit :  **Run the Streamlit application (`static/app.py`):**
 
     ```bash
-    streamlit run static/app.py
+    streamlit run streamlit_app.py
     ```
 
     By default, the Streamlit app will be available at `http://localhost:8501`.
