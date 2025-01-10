@@ -44,13 +44,6 @@ os.makedirs(PERSIST_DIR, exist_ok=True)
 class Query(BaseModel):
     question: str
 
-class DeployedModel(BaseModel):
-    model_id: str
-    model_name: str
-
-    class Config:
-        model_config = ConfigDict(protected_namespaces=())
-
 def data_ingestion():
     documents = SimpleDirectoryReader(DATA_DIR).load_data()
     storage_context = StorageContext.from_defaults()
